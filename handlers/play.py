@@ -264,7 +264,7 @@ async def play(_, message: Message):
         [
             [
                 InlineKeyboardButton("🚀 Support", url=f"https://t.me/AlsancakAil3si"),
-                InlineKeyboardButton("📣 Kanal", url=f"https://t.me/AlsancalAil3si"),
+                InlineKeyboardButton("📣 Kanal", url=f"https://t.me/AlsancakAil3si"),
             ],[
                 InlineKeyboardButton("📲 Bağla", callback_data="cls"),
             ],
