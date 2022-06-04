@@ -14,15 +14,15 @@ async def start(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Məni Qrupa Əlavə Et ❱ ➕", url=f"https://t.me/HZMucisBot?startgroup=true"
+                        "➕ ❰ Məni Qrupa Əlavə Et ❱ ➕", url=f"https://t.me/AlsancakMusic_bot?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔊 Asistan", url="https://t.me/SecretMMC"
+                        "🔊 Asistan", url="https://t.me/AlsancakAsisstant"
                     ),
                     InlineKeyboardButton(
-                        "Support 💬", url="https://t.me/SecretMMC"
+                        "Support 💬", url="https://t.me/AksancakAil3si"
                     )
                 ],
                 [
@@ -30,7 +30,7 @@ async def start(_, message: Message):
                         "🧩 Əmrlər" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "Rəsmi Kanal 🇦🇿", url=f"https://t.me/SecretMMC"
+                        "Rəsmi Kanal 🇦🇿", url=f"https://t.me/AlsancakAil3si"
                     )
                 ]
                 
@@ -56,7 +56,7 @@ async def bilgi(_, message: Message):
                          "Geri 🔄", callback_data="cbstart")
                  ],[
                      InlineKeyboardButton(
-                         "Sahib 🇦🇿", url="https://t.me/o2o_GenCeLi")
+                         "Sahib 🇦🇿", url="https://t.me/Roxy_Boss")
                  ]
              ]
          )
