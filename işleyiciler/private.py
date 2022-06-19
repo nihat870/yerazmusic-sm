@@ -8,21 +8,21 @@ from helpers.filters import command, other_filters2
 @Client.on_message(command(["start", f"start@{BOT_USERNAME}"]))
 async def start(_, message: Message):
                 await message.reply_photo(
-                "https://telegra.ph/file/fc440ece1e0bfed45af5d.jpg",
-                caption=(f"""**Salam {message.from_user.mention} 🎵\nMən {bot}!\nSəsli söhbətlərdə musiqi oxuyan botam. Ban yetkisiz, Səs yetkisi verib, Asistanı qrupa əlavə edin.\n\nSahibim👉  [Yeraz](https://t.me/Roxy_Boss)**"""),
+                "https://te.legra.ph/file/03f786582ec8f5230b8a7.jpg",
+                caption=(f"""**Salam {message.from_user.mention} 🎵\nMən {bot}!\nSəsli söhbətlərdə musiqi oxuyan botam. Ban yetkisiz, Səs yetkisi verib, Asistanı qrupa əlavə edin.\n\nSahibim👉  [NIHAT](https://t.me/nihat_33)**"""),
          reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Məni Qrupa Əlavə Et ❱ ➕", url=f"https://t.me/AlsancakMusic_bot?startgroup=true"
+                        "➕ ❰ Məni Qrupa Əlavə Et ❱ ➕", url=f"https://t.me/SM_mmusic_bot?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔊 Asistan", url="https://t.me/AlsancakAsisstant"
+                        "🔊 Asistan", url="https://t.me/SM_music2_bot"
                     ),
                     InlineKeyboardButton(
-                        "Support 💬", url="https://t.me/AksancakAil3si"
+                        "Support 💬", url="https://t.me/Ay_isigi_sohbet"
                     )
                 ],
                 [
@@ -30,7 +30,7 @@ async def start(_, message: Message):
                         "🧩 Əmrlər" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "Rəsmi Kanal 🇦🇿", url=f"https://t.me/AlsancakAil3si"
+                        "Rəsmi Kanal 🇦🇿", url=f"https://t.me/Fake_love_33"
                     )
                 ]
                 
@@ -56,7 +56,7 @@ async def bilgi(_, message: Message):
                          "Geri 🔄", callback_data="cbstart")
                  ],[
                      InlineKeyboardButton(
-                         "Sahib 🇦🇿", url="https://t.me/Roxy_Boss")
+                         "Sahib 🇦🇿", url="https://t.me/nihat_33")
                  ]
              ]
          )
@@ -82,7 +82,7 @@ async def cbbilgi(_, query: CallbackQuery):
         ],
         [
           InlineKeyboardButton(
-            "Sahib 🇦🇿", url="https://t.me/Roxy_Boss")
+            "Sahib 🇦🇿", url="https://t.me/nihat_33")
         ]
       ]
      ))
@@ -95,7 +95,7 @@ async def herkes(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "Sahib 🇦🇿", url="https://t.me/Roxy_Boss")
+                         "Sahib 🇦🇿", url="https://t.me/nihat_33")
                  ],
                  [
                      InlineKeyboardButton(
@@ -113,7 +113,7 @@ async def admin(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "Sahib 🇦🇿", url="https://t.me/Roxy_Boss")
+                         "Sahib 🇦🇿", url="https://t.me/nihat_33")
                  ],
                  [
                      InlineKeyboardButton(
@@ -126,20 +126,20 @@ async def admin(_, query: CallbackQuery):
 
 @Client.on_callback_query(filters.regex("cbstart"))
 async def cbstart(_, query: CallbackQuery):
-    await query.edit_message_text(f"""**Salam {query.from_user.mention} 🎵\nMən {bot}!\nSəsli sohbətlərdə musiqi oxuyan botam. Ban yetkisiz, Səs yönətim yetki verib, Asistanı qrupa əlavə edin.\n\nSahibim👉  [Rahid](https://t.me/Roxy_Boss)**""",
+    await query.edit_message_text(f"""**Salam {query.from_user.mention} 🎵\nMən {bot}!\nSəsli sohbətlərdə musiqi oxuyan botam. Ban yetkisiz, Səs yönətim yetki verib, Asistanı qrupa əlavə edin.\n\nSahibim👉  [NIHAT](https://t.me/nihat_33)**""",
          reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Məni Qrupa Əlavə Et ❱ ➕", url=f"https://t.me/AlsancakMusic_bot?startgroup=true"
+                        "➕ ❰ Məni Qrupa Əlavə Et ❱ ➕", url=f"https://t.me/SM_mmusic_bot?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔊 Asistan", url="https://t.me/AlsancakAsisstant"
+                        "🔊 Asistan", url="https://t.me/SM_music2_bot"
                     ),
                     InlineKeyboardButton(
-                        "Support 💬", url="https://t.me/AlsancakAil3si"
+                        "Support 💬", url="https://t.me/Ay_isigi_sohbet"
                     )
                 ],
                 [
@@ -147,7 +147,7 @@ async def cbstart(_, query: CallbackQuery):
                         "🧩 Əmrlər" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "Rəsmi Kanal 🇦🇿", url=f"https://t.me/Roxy_Boss"
+                        "Rəsmi Kanal 🇦🇿", url=f"https://t.me/Fake_love_33"
                     )
                 ]
                 
